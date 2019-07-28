@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		0925AF9920E2AA3959276047 /* Pods-GlobalEventHub_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalEventHub_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GlobalEventHub_Tests/Pods-GlobalEventHub_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		26EDAEDB540F0C584C896435 /* Pods-GlobalEventHub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalEventHub_Example.debug.xcconfig"; path = "Target Support Files/Pods-GlobalEventHub_Example/Pods-GlobalEventHub_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		26FA2FFEF5A151FD36FD4D0B /* GlobalEventHub.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GlobalEventHub.podspec; path = ../GlobalEventHub.podspec; sourceTree = "<group>"; };
-		50E87AA4FE0056D49E6A5D8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		26FA2FFEF5A151FD36FD4D0B /* GlobalEventHub.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GlobalEventHub.podspec; path = ../GlobalEventHub.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		50E87AA4FE0056D49E6A5D8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5C07F253516055ED3516D00B /* Pods-GlobalEventHub_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalEventHub_Example.release.xcconfig"; path = "Target Support Files/Pods-GlobalEventHub_Example/Pods-GlobalEventHub_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GlobalEventHub_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalEventHub_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		66E3023EB506D328F5A3AD1F /* Pods_GlobalEventHub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobalEventHub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B988861F71FF94CC34F6156 /* Pods-GlobalEventHub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalEventHub_Tests.release.xcconfig"; path = "Target Support Files/Pods-GlobalEventHub_Tests/Pods-GlobalEventHub_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		828C423BC566C6C4A806F130 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		828C423BC566C6C4A806F130 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DE19276EB919E08735E55830 /* Pods_GlobalEventHub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobalEventHub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				0925AF9920E2AA3959276047 /* Pods-GlobalEventHub_Tests.debug.xcconfig */,
 				7B988861F71FF94CC34F6156 /* Pods-GlobalEventHub_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

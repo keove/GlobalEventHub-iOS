@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GlobalEventHub'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GlobalEventHub.'
+  s.summary          = 'Fire and receive events from ANYWHERE in your app'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'You can fire events from anywhere in the application, a view, a controller a cell or any other object. You can receive these events from anywhere in your app with a single delegate method'
 
-  s.homepage         = 'https://github.com/cozdes/GlobalEventHub'
+  s.homepage         = 'https://github.com/keove/GlobalEventHub'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cozdes' => 'cagri.ozdes@keove.com' }
-  s.source           = { :git => 'https://github.com/cozdes/GlobalEventHub.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/keove/GlobalEventHub.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

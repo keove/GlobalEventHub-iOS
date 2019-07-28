@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		164CF56422EE5ACF00CD5FE2 /* GlobalEventHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CF56222EE5ACF00CD5FE2 /* GlobalEventHub.swift */; };
+		164CF56522EE5ACF00CD5FE2 /* GlobalEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CF56322EE5ACF00CD5FE2 /* GlobalEventListener.swift */; };
+		2C8D1A2EF6495A0E3440AA27A5CB41EA /* GlobalEventHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E718C50DCE72FB461F4E9104539C95 /* GlobalEventHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		547C4A2D1CF7E00E696351C543775E2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7F00C728DA050A21EB5365F39E99F950 /* Pods-GlobalEventHub_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 086E5FE2B6950441E57BB524B73E19FF /* Pods-GlobalEventHub_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C7E16E1BC939DC0042123E744EBA835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D7BEFAE86052A74F01C9B66C4AA0696E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D9A70890B91CE459F448C32C96D959BD /* GlobalEventHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A81E4D565E84DA7798616A450008B427 /* GlobalEventHub-dummy.m */; };
+		DAAECD3B516C391BB584A65AC68B7D9E /* Pods-GlobalEventHub_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F92321B2D7DBA59DDE3EB7F71DE1572 /* Pods-GlobalEventHub_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFF1A7ECD3C9E28C63F222A0B650F152 /* Pods-GlobalEventHub_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EBAB21A9AA95B6BEF164359F6BF24D /* Pods-GlobalEventHub_Example-dummy.m */; };
+		E492D934BE7B3DA2131BFD2BAEDF9ACD /* Pods-GlobalEventHub_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B49D590718E2DA7351598A83D2E96F /* Pods-GlobalEventHub_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EB89299655682670AA1BD3F89EF76E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C31315ABDB7E6ECAAB002F1F71695D;
+			remoteInfo = "Pods-GlobalEventHub_Example";
+		};
+		7DE16A4AA021C91C96393C4AEC8D766D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E4C31EEF3A221B01BB4BD94B135F8E;
+			remoteInfo = GlobalEventHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086E5FE2B6950441E57BB524B73E19FF /* Pods-GlobalEventHub_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlobalEventHub_Example-umbrella.h"; sourceTree = "<group>"; };
+		164CF56222EE5ACF00CD5FE2 /* GlobalEventHub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalEventHub.swift; path = GlobalEventHub/Classes/GlobalEventHub.swift; sourceTree = "<group>"; };
+		164CF56322EE5ACF00CD5FE2 /* GlobalEventListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalEventListener.swift; path = GlobalEventHub/Classes/GlobalEventListener.swift; sourceTree = "<group>"; };
+		1DDB2C3D55719F46E946919102D9CA3F /* GlobalEventHub.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlobalEventHub.xcconfig; sourceTree = "<group>"; };
+		22EBAB21A9AA95B6BEF164359F6BF24D /* Pods-GlobalEventHub_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlobalEventHub_Example-dummy.m"; sourceTree = "<group>"; };
+		2DB23C519F6B4F7B01FE4BF172379457 /* GlobalEventHub.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GlobalEventHub.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2E2862E8ACE1CBC53BA1AE6E2138CBBD /* Pods-GlobalEventHub_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlobalEventHub_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32B49D590718E2DA7351598A83D2E96F /* Pods-GlobalEventHub_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlobalEventHub_Tests-dummy.m"; sourceTree = "<group>"; };
+		3A9F28A5D22EF85707084D52B15D4CC9 /* Pods-GlobalEventHub_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalEventHub_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C26FAE12006DB80E8E8C356A253EC93 /* GlobalEventHub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GlobalEventHub.modulemap; sourceTree = "<group>"; };
+		5F92321B2D7DBA59DDE3EB7F71DE1572 /* Pods-GlobalEventHub_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlobalEventHub_Tests-umbrella.h"; sourceTree = "<group>"; };
+		66DB4BE18F6F31324EF2D38E47FCEC3D /* Pods-GlobalEventHub_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalEventHub_Tests-Info.plist"; sourceTree = "<group>"; };
+		8E508321D0DFF0703909A54FB4BA045D /* Pods_GlobalEventHub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobalEventHub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		935ADED2749EB5F603FCC4B5BE715BF1 /* Pods-GlobalEventHub_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlobalEventHub_Example-frameworks.sh"; sourceTree = "<group>"; };
+		98E718C50DCE72FB461F4E9104539C95 /* GlobalEventHub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlobalEventHub-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A81E4D565E84DA7798616A450008B427 /* GlobalEventHub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GlobalEventHub-dummy.m"; sourceTree = "<group>"; };
+		A848279FFBBE90EBA3B971F1A9BD4076 /* Pods-GlobalEventHub_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GlobalEventHub_Example.modulemap"; sourceTree = "<group>"; };
+		A8D99B61B4C48415A69EFF5F21D90CFD /* GlobalEventHub-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GlobalEventHub-Info.plist"; sourceTree = "<group>"; };
+		B43ECA7B6CC9AD8D86E194968FF456CE /* Pods-GlobalEventHub_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobalEventHub_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B6E15320BB473FE0815E93694339383E /* Pods-GlobalEventHub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobalEventHub_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B8E3F0D185521C3BFB9CE6322C84F865 /* Pods-GlobalEventHub_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalEventHub_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAE9DE750E776A31495E888596BFCAA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BBF1A40BDD5BE34A0BB8BF583D0AFF9E /* Pods-GlobalEventHub_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobalEventHub_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD12EE7A8C366D5FBEB9A9D0589E5E39 /* Pods-GlobalEventHub_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GlobalEventHub_Tests.modulemap"; sourceTree = "<group>"; };
+		CC183EEFB2956A516BEB58168ED86FFE /* Pods-GlobalEventHub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlobalEventHub_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D2D148C321584BAF4ECDA4A72B5F1590 /* GlobalEventHub-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlobalEventHub-prefix.pch"; sourceTree = "<group>"; };
+		D4C3EEB9CCB35775ADEA40C5DE9D10F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6C6C57E283232E020D683FF72683B2B /* Pods_GlobalEventHub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobalEventHub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDFB0A4A8EEF0EFA4BB2A82BB344421 /* Pods-GlobalEventHub_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlobalEventHub_Example-Info.plist"; sourceTree = "<group>"; };
+		E2F06FAE4D7195A4F8C11A77BB7A8365 /* Pods-GlobalEventHub_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlobalEventHub_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0A2CC24798011E4F78253AED41514F2 /* GlobalEventHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GlobalEventHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E128A72E3E9F0B47AA1EE270F9E1536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547C4A2D1CF7E00E696351C543775E2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885FECD292CB0B3A5CDB06FF9068C1FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7E16E1BC939DC0042123E744EBA835 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3623FE954ABC387930802A388E6846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BEFAE86052A74F01C9B66C4AA0696E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EDEF0E46BE512EE68C3D65EB05E2335 /* GlobalEventHub */ = {
+			isa = PBXGroup;
+			children = (
+				164CF56222EE5ACF00CD5FE2 /* GlobalEventHub.swift */,
+				164CF56322EE5ACF00CD5FE2 /* GlobalEventListener.swift */,
+				A78C3B534D9F8536AB8BB83FFAEA4CDD /* Pod */,
+				80821DDDC28C75E7D000A0EB2F86A97C /* Support Files */,
+			);
+			name = GlobalEventHub;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		152F527E76ACFBCA1CEC52C48EEC1F95 /* Pods-GlobalEventHub_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A848279FFBBE90EBA3B971F1A9BD4076 /* Pods-GlobalEventHub_Example.modulemap */,
+				2E2862E8ACE1CBC53BA1AE6E2138CBBD /* Pods-GlobalEventHub_Example-acknowledgements.markdown */,
+				B8E3F0D185521C3BFB9CE6322C84F865 /* Pods-GlobalEventHub_Example-acknowledgements.plist */,
+				22EBAB21A9AA95B6BEF164359F6BF24D /* Pods-GlobalEventHub_Example-dummy.m */,
+				935ADED2749EB5F603FCC4B5BE715BF1 /* Pods-GlobalEventHub_Example-frameworks.sh */,
+				DDDFB0A4A8EEF0EFA4BB2A82BB344421 /* Pods-GlobalEventHub_Example-Info.plist */,
+				086E5FE2B6950441E57BB524B73E19FF /* Pods-GlobalEventHub_Example-umbrella.h */,
+				B6E15320BB473FE0815E93694339383E /* Pods-GlobalEventHub_Example.debug.xcconfig */,
+				B43ECA7B6CC9AD8D86E194968FF456CE /* Pods-GlobalEventHub_Example.release.xcconfig */,
+			);
+			name = "Pods-GlobalEventHub_Example";
+			path = "Target Support Files/Pods-GlobalEventHub_Example";
+			sourceTree = "<group>";
+		};
+		3EB55B5C8433CDB3DE8B7B5204147850 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				152F527E76ACFBCA1CEC52C48EEC1F95 /* Pods-GlobalEventHub_Example */,
+				C4BB02BBD44D827499D66490E42B9155 /* Pods-GlobalEventHub_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		68EA6C5DC67BD432E5586BF5E1A0630F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EDEF0E46BE512EE68C3D65EB05E2335 /* GlobalEventHub */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		80821DDDC28C75E7D000A0EB2F86A97C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C26FAE12006DB80E8E8C356A253EC93 /* GlobalEventHub.modulemap */,
+				1DDB2C3D55719F46E946919102D9CA3F /* GlobalEventHub.xcconfig */,
+				A81E4D565E84DA7798616A450008B427 /* GlobalEventHub-dummy.m */,
+				A8D99B61B4C48415A69EFF5F21D90CFD /* GlobalEventHub-Info.plist */,
+				D2D148C321584BAF4ECDA4A72B5F1590 /* GlobalEventHub-prefix.pch */,
+				98E718C50DCE72FB461F4E9104539C95 /* GlobalEventHub-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GlobalEventHub";
+			sourceTree = "<group>";
+		};
+		A78C3B534D9F8536AB8BB83FFAEA4CDD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2DB23C519F6B4F7B01FE4BF172379457 /* GlobalEventHub.podspec */,
+				BAE9DE750E776A31495E888596BFCAA5 /* LICENSE */,
+				D4C3EEB9CCB35775ADEA40C5DE9D10F2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4BB02BBD44D827499D66490E42B9155 /* Pods-GlobalEventHub_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD12EE7A8C366D5FBEB9A9D0589E5E39 /* Pods-GlobalEventHub_Tests.modulemap */,
+				E2F06FAE4D7195A4F8C11A77BB7A8365 /* Pods-GlobalEventHub_Tests-acknowledgements.markdown */,
+				3A9F28A5D22EF85707084D52B15D4CC9 /* Pods-GlobalEventHub_Tests-acknowledgements.plist */,
+				32B49D590718E2DA7351598A83D2E96F /* Pods-GlobalEventHub_Tests-dummy.m */,
+				66DB4BE18F6F31324EF2D38E47FCEC3D /* Pods-GlobalEventHub_Tests-Info.plist */,
+				5F92321B2D7DBA59DDE3EB7F71DE1572 /* Pods-GlobalEventHub_Tests-umbrella.h */,
+				BBF1A40BDD5BE34A0BB8BF583D0AFF9E /* Pods-GlobalEventHub_Tests.debug.xcconfig */,
+				CC183EEFB2956A516BEB58168ED86FFE /* Pods-GlobalEventHub_Tests.release.xcconfig */,
+			);
+			name = "Pods-GlobalEventHub_Tests";
+			path = "Target Support Files/Pods-GlobalEventHub_Tests";
+			sourceTree = "<group>";
+		};
+		C5542CC39C92C1318201A1C2EB67949A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2CC24798011E4F78253AED41514F2 /* GlobalEventHub.framework */,
+				8E508321D0DFF0703909A54FB4BA045D /* Pods_GlobalEventHub_Example.framework */,
+				D6C6C57E283232E020D683FF72683B2B /* Pods_GlobalEventHub_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				68EA6C5DC67BD432E5586BF5E1A0630F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C5542CC39C92C1318201A1C2EB67949A /* Products */,
+				3EB55B5C8433CDB3DE8B7B5204147850 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A8C83412BACC5FA0B0FDFE16C29368F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAECD3B516C391BB584A65AC68B7D9E /* Pods-GlobalEventHub_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E9DEF5086773CD2EB4B2E854640434 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F00C728DA050A21EB5365F39E99F950 /* Pods-GlobalEventHub_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04C52E41206218B2BC0E4368E18D2D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8D1A2EF6495A0E3440AA27A5CB41EA /* GlobalEventHub-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1E25BD124D849381F228DB847B63DB /* Pods-GlobalEventHub_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D9A00A0723E36833D7404F361E072C /* Build configuration list for PBXNativeTarget "Pods-GlobalEventHub_Tests" */;
+			buildPhases = (
+				0A8C83412BACC5FA0B0FDFE16C29368F /* Headers */,
+				472B46824E447B8F10593E632A6507C4 /* Sources */,
+				885FECD292CB0B3A5CDB06FF9068C1FD /* Frameworks */,
+				DBC5A57167CC73AFA14A4B36D4166DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D61312829BD5C104D9C6A1ADA50EE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-GlobalEventHub_Tests";
+			productName = "Pods-GlobalEventHub_Tests";
+			productReference = D6C6C57E283232E020D683FF72683B2B /* Pods_GlobalEventHub_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0E4C31EEF3A221B01BB4BD94B135F8E /* GlobalEventHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E60DD7E754A9C0ACAF4FBA646F724C0 /* Build configuration list for PBXNativeTarget "GlobalEventHub" */;
+			buildPhases = (
+				D04C52E41206218B2BC0E4368E18D2D2 /* Headers */,
+				47E2C55ECCFED2C4AB56E023DF7E620E /* Sources */,
+				ED3623FE954ABC387930802A388E6846 /* Frameworks */,
+				927D8BDE8DC3536DFDC850E127257550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlobalEventHub;
+			productName = GlobalEventHub;
+			productReference = F0A2CC24798011E4F78253AED41514F2 /* GlobalEventHub.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7C31315ABDB7E6ECAAB002F1F71695D /* Pods-GlobalEventHub_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42AC85A80E1AC65F6C27332E81A87A6 /* Build configuration list for PBXNativeTarget "Pods-GlobalEventHub_Example" */;
+			buildPhases = (
+				B4E9DEF5086773CD2EB4B2E854640434 /* Headers */,
+				D837CFCA65AB8A833450419EEE6D8077 /* Sources */,
+				5E128A72E3E9F0B47AA1EE270F9E1536 /* Frameworks */,
+				2AD617D1C80B0D96B8949CCCFAD1D30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B383DEBE706836125E8A79BCFDCCC7B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-GlobalEventHub_Example";
+			productName = "Pods-GlobalEventHub_Example";
+			productReference = 8E508321D0DFF0703909A54FB4BA045D /* Pods_GlobalEventHub_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C5542CC39C92C1318201A1C2EB67949A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0E4C31EEF3A221B01BB4BD94B135F8E /* GlobalEventHub */,
+				F7C31315ABDB7E6ECAAB002F1F71695D /* Pods-GlobalEventHub_Example */,
+				8D1E25BD124D849381F228DB847B63DB /* Pods-GlobalEventHub_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AD617D1C80B0D96B8949CCCFAD1D30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927D8BDE8DC3536DFDC850E127257550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5A57167CC73AFA14A4B36D4166DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		472B46824E447B8F10593E632A6507C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E492D934BE7B3DA2131BFD2BAEDF9ACD /* Pods-GlobalEventHub_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E2C55ECCFED2C4AB56E023DF7E620E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A70890B91CE459F448C32C96D959BD /* GlobalEventHub-dummy.m in Sources */,
+				164CF56522EE5ACF00CD5FE2 /* GlobalEventListener.swift in Sources */,
+				164CF56422EE5ACF00CD5FE2 /* GlobalEventHub.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D837CFCA65AB8A833450419EEE6D8077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF1A7ECD3C9E28C63F222A0B650F152 /* Pods-GlobalEventHub_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24D61312829BD5C104D9C6A1ADA50EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GlobalEventHub_Example";
+			target = F7C31315ABDB7E6ECAAB002F1F71695D /* Pods-GlobalEventHub_Example */;
+			targetProxy = 0EB89299655682670AA1BD3F89EF76E3 /* PBXContainerItemProxy */;
+		};
+		B383DEBE706836125E8A79BCFDCCC7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GlobalEventHub;
+			target = C0E4C31EEF3A221B01BB4BD94B135F8E /* GlobalEventHub */;
+			targetProxy = 7DE16A4AA021C91C96393C4AEC8D766D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F80F56076331BFDBD5B31933E1E90ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF1A40BDD5BE34A0BB8BF583D0AFF9E /* Pods-GlobalEventHub_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlobalEventHub_Tests/Pods-GlobalEventHub_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlobalEventHub_Tests/Pods-GlobalEventHub_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		472D34BA839698546FEFBE0516DA6F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC183EEFB2956A516BEB58168ED86FFE /* Pods-GlobalEventHub_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlobalEventHub_Tests/Pods-GlobalEventHub_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlobalEventHub_Tests/Pods-GlobalEventHub_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D544D752093CC71A80D40B2134F0EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DDB2C3D55719F46E946919102D9CA3F /* GlobalEventHub.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GlobalEventHub/GlobalEventHub-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GlobalEventHub/GlobalEventHub-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GlobalEventHub/GlobalEventHub.modulemap";
+				PRODUCT_MODULE_NAME = GlobalEventHub;
+				PRODUCT_NAME = GlobalEventHub;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2F61D8CE34B27C5D0FB6F7754387AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43ECA7B6CC9AD8D86E194968FF456CE /* Pods-GlobalEventHub_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlobalEventHub_Example/Pods-GlobalEventHub_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlobalEventHub_Example/Pods-GlobalEventHub_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF18B61AADC4A285EF611D2D15F04638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E15320BB473FE0815E93694339383E /* Pods-GlobalEventHub_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlobalEventHub_Example/Pods-GlobalEventHub_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlobalEventHub_Example/Pods-GlobalEventHub_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BBEC086E66969406BBFC62E808AB64FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DDB2C3D55719F46E946919102D9CA3F /* GlobalEventHub.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GlobalEventHub/GlobalEventHub-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GlobalEventHub/GlobalEventHub-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GlobalEventHub/GlobalEventHub.modulemap";
+				PRODUCT_MODULE_NAME = GlobalEventHub;
+				PRODUCT_NAME = GlobalEventHub;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E60DD7E754A9C0ACAF4FBA646F724C0 /* Build configuration list for PBXNativeTarget "GlobalEventHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D544D752093CC71A80D40B2134F0EE4 /* Debug */,
+				BBEC086E66969406BBFC62E808AB64FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D9A00A0723E36833D7404F361E072C /* Build configuration list for PBXNativeTarget "Pods-GlobalEventHub_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F80F56076331BFDBD5B31933E1E90ED /* Debug */,
+				472D34BA839698546FEFBE0516DA6F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42AC85A80E1AC65F6C27332E81A87A6 /* Build configuration list for PBXNativeTarget "Pods-GlobalEventHub_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF18B61AADC4A285EF611D2D15F04638 /* Debug */,
+				A2F61D8CE34B27C5D0FB6F7754387AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module GlobalEventHub {
+  umbrella header "GlobalEventHub-umbrella.h"
+
+  export *
+  module * { export * }
+}

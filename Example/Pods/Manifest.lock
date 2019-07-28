@@ -1,0 +1,16 @@
+PODS:
+  - GlobalEventHub (0.1.0)
+
+DEPENDENCIES:
+  - GlobalEventHub (from `../`)
+
+EXTERNAL SOURCES:
+  GlobalEventHub:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GlobalEventHub: 647802d353c3e7756bd4ad2ab1ebc35bb4e0c82b
+
+PODFILE CHECKSUM: 42c121de798d5d460c9221da90b0f79a67784e46
+
+COCOAPODS: 1.7.5

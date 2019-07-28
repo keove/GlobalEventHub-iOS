@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GlobalEventHub_Example' do
+  pod 'GlobalEventHub', :path => '../'
+
+  target 'GlobalEventHub_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

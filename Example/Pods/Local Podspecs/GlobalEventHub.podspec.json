@@ -1,9 +1,9 @@
 {
   "name": "GlobalEventHub",
-  "version": "0.1.0",
-  "summary": "A short description of GlobalEventHub.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/cozdes/GlobalEventHub",
+  "version": "1.0.0",
+  "summary": "Fire and receive events from ANYWHERE in your app",
+  "description": "You can fire events from anywhere in the application, a view, a controller a cell or any other object. You can receive these events from anywhere in your app with a single delegate method",
+  "homepage": "https://github.com/keove/GlobalEventHub",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "cozdes": "cagri.ozdes@keove.com"
   },
   "source": {
-    "git": "https://github.com/cozdes/GlobalEventHub.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/keove/GlobalEventHub.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"

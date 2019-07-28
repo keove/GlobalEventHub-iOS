@@ -9,9 +9,10 @@
 import Foundation
 import UIKit
 
-class GlobalEventHub: UIResponder {
+public class GlobalEventHub: UIResponder {
     
-    var map : NSMutableDictionary = NSMutableDictionary()
+    public var map : NSMutableDictionary = NSMutableDictionary()
+    
     
     public func addListener(listener:GlobalEventListener,eventName:String) {
         

@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol GlobalEventListener {
+public protocol GlobalEventListener {
     
     func onGlobalEvent(eventName:String,object:Any?,flag:Bool,code:Int)
 }

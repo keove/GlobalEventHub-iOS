@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GlobalEventHub'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'Fire and receive events from ANYWHERE in your app'
 
 # This description is used to generate tags and improve search results.
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'You can fire events from anywhere in the application, a view, a controller a cell or any other object. You can receive these events from anywhere in your app with a single delegate method'
 
-  s.homepage         = 'https://github.com/keove/GlobalEventHub'
+  s.homepage         = 'https://github.com/keove/GlobalEventHub-iOS.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cozdes' => 'cagri.ozdes@keove.com' }
-  s.source           = { :git => 'https://github.com/keove/GlobalEventHub.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/keove/GlobalEventHub-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

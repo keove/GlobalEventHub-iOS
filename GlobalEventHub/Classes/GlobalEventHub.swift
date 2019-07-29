@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class GlobalEventHub: UIResponder {
+open class GlobalEventHub: UIResponder {
     
     public var map : NSMutableDictionary = NSMutableDictionary()
     

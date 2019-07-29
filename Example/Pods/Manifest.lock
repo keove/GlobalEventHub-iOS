@@ -1,5 +1,5 @@
 PODS:
-  - GlobalEventHub (1.0.1)
+  - GlobalEventHub (1.0.2)
 
 DEPENDENCIES:
   - GlobalEventHub (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GlobalEventHub: 2427d4ae968f56d6085e069762c05dd50362581d
+  GlobalEventHub: c173d6926b7a7e4df0e02975f3d6e11cf92bc86c
 
 PODFILE CHECKSUM: 42c121de798d5d460c9221da90b0f79a67784e46
 
